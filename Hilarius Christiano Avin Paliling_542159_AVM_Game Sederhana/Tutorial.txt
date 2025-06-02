@@ -1,0 +1,2 @@
+pip install pygame numpy (on terminal)
+ctrl+shift+P >> Python: Select Interpreter >> Python 3.12.6 (Global)
