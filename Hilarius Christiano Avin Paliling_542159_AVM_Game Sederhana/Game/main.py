@@ -7,15 +7,6 @@ from settings import SCREEN_WIDTH, SCREEN_HEIGHT, TITLE, FPS
 
 pygame.init()
 
-# Ambil ukuran layar, lalu kurangi agar tidak menutupi taskbar
-info = pygame.display.Info()
-SCREEN_WIDTH = int(info.current_w * 0.8)
-SCREEN_HEIGHT = int(info.current_h * 0.8)
-
-TITLE = "Game Window Mode"
-FPS = 60
-WHITE = (255, 255, 255)
-
 # Fix import path
 sys.path.append(str(Path(__file__).parent))
 from settings import *
